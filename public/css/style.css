@@ -1,0 +1,397 @@
+html {
+    scroll-behavior: smooth !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+}
+
+.icon-link>.bi {
+    width: .75em;
+    height: .75em;
+}
+
+.custom-navbar {
+    background-color: rgb(255, 255, 255);
+    max-height: 100px !important;
+    /* width: 100vw; */
+    margin-left: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+
+/* NAV BAR */
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    max-width: 80px;
+    transition: transform 0.3s ease;
+}
+
+#logo:hover {
+    transform: scale(1.1);
+}
+
+
+[data-bs-theme=light] .logo-dark {
+    display: none;
+
+}
+
+[data-bs-theme=light] .logo-light {
+    display: block;
+}
+
+[data-bs-theme=light] .nav-link,
+.nav-link.hovered {
+    color: #15a78c;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    transition: transform 0.3s ease;
+}
+
+.fas.fa-user{
+   color: #15a78c !important;
+   transition: color 0.3s ease;
+   transition: transform 0.3s ease;
+}
+
+.far.fa-eye{
+    color: white;
+}
+
+.nav-link:hover {
+    color: #0e7261;
+    transform: scale(1.05);
+}
+
+.nav-link.hovered,
+.nav-link.dropdown-toggle.show,
+.far {
+    color: #15a78c;
+}
+
+.custon-button-2 {
+    font-weight: bold;
+    color: #15a78c !important;
+    border-color: #15a78c !important;
+    background-color: transparent !important;
+    transition: transform 0.3s ease;
+    margin-right: 20px;
+}
+
+
+.custon-button-2:hover {
+    color: #0e7261 !important;
+    border-color: #0e7261 !important;
+    transform: scale(1.1);
+}
+
+
+.custon-button {
+    font-weight: bold;
+    background-color: #15a78c;
+    border-color: #15a78c !important;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.custon-button:hover,
+.custon-button:active {
+    background-color: #0e7261 !important;
+    border-color: #0e7261 !important;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+
+.custon-button-2,
+.custon-button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.offcanvas .offcanvas-active {
+    max-width: 70%;
+}
+
+.offcanvas-active .offcanvas-body ul.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.offcanvas-active .offcanvas-body ul.navbar-nav li.nav-item {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.offcanvas-active .offcanvas-body ul.navbar-nav li.nav-item:not(:last-child) {
+    border-bottom: 1px solid #668FCB;
+}
+
+.offcanvas-active .offcanvas-body ul.navbar-nav li.nav-item:last-child {
+    border-bottom: none;
+}
+
+
+/* Search body */
+
+.section-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    height: 100vh;
+    width: 100vw;
+    margin-left: 0px;
+}
+
+.banner {
+    background-color: #d8fdf5;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.banner-custon {
+    margin: 0px !important;
+    padding: 0px in !important;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.col-md-6 h1 {
+    color: #000000;
+    margin-bottom: 15px;
+    text-shadow: 3px 3px 3px #668FCB;
+}
+
+.col-md-6 h3 {
+    color: #000000;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.search-bar input,
+.search-bar button {
+    font-size: 16px;
+    margin-right: -5px;
+}
+
+.search-bar {
+    margin-top: 20px;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 70%;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    transition: background-color 0.3s ease;
+}
+
+.search-bar input:hover {
+    background-color: #f2f2f2 !important;
+}
+
+.search-bar input:focus {
+    outline: none;
+    background-color: #f2f2f2 !important;
+}
+
+.search-bar button {
+    padding: 10px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #0d7e4d;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.search-bar button:hover {
+    background-color: #075a36;
+}
+
+
+
+.servicos_list {
+    max-height: 100vh;
+    max-width: 100vh;
+}
+
+
+
+.site-header {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+.site-header a {
+    color: #8e8e8e;
+    transition: color .15s ease-in-out;
+}
+
+.site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.search-bar input:hover {
+    background-color: #e4e4e4;
+}
+
+
+.tabelas {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tabelas .card {
+    width: calc(50% - 10px);
+    margin-right: 10px;
+}
+
+
+
+
+
+
+.cadastro-section .custon-button{
+    width: 150px;
+    margin: 10px 10px 0px 0px;
+}
+.search-section {
+    padding: 10px 10px 0px 10px;
+}
+
+.search-section .form-group {
+    padding: 0;
+}
+
+.search-section .form-content {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0;
+}
+
+.search-section .form-content .btn{
+    max-width: 200px;
+    padding: 7px;
+}
+.search-section .form-content .btn:first-child{
+    margin-right: 10px;
+}
+
+
+.custon-card{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.custon-card-iten{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 100px;
+}
+
+.custon-card-title{
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+}
+
+.custon-card-value{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.positive{
+    background-color: #d8fdf5;
+}
+
+
+.negative{
+    background-color: rgb(247, 173, 173);
+}
+
+.neutral{
+    background-color: rgb(255, 255, 192);
+}
+/*
+
+
+   * Dummy devices (replace them with your own or something else entirely!)
+   */
+
+.product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-color: #333;
+    border-radius: 21px;
+    transform: rotate(30deg);
+}
+
+.product-device::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 5px;
+}
+
+.product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #e5e5e5;
+}
+
+
+
+
+
+/*
+   * Extra utilities
+   */
+
+.flex-equal>* {
+    flex: 1;
+}
+
+@media (min-width: 768px) {
+    .flex-md-equal>* {
+        flex: 1;
+    }
+}
+@media (max-width: 768px) {
+    .tabelas .card {
+        width: 100%;
+        margin-right: 0;
+    }
+}

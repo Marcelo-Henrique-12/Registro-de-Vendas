@@ -1,0 +1,7 @@
+{
+    "The :attribute must contain at least one uppercase and one lowercase letter.": "O campo :attribute precisa conter pelo menos uma letra maiúscula e uma letra minúscula.",
+    "The :attribute must contain at least one letter.": "O campo :attribute precisa conter pelomenos uma letra",
+    "The :attribute must contain at least one symbol.": "O campo :attribute precisa conter pelomenos um símbolo",
+    "The :attribute must contain at least one number.": "O campo :attribute precisa conter pelomenos um número",
+    "There was an error on row :row. :message": "Houve um erro na linha :row. :message"
+}
