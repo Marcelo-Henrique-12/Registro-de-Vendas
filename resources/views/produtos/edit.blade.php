@@ -8,7 +8,7 @@
             <div class="position-relative overflow-hidden text-center banner-custon">
                 <div class="container custon-container">
                     <div class="mb-5">
-                        <h5 class="modal-title" id="modalGanhosLabel">Atualizar Produto</h5>
+                        <h5 class="modal-title">Atualizar Produto</h5>
                         <p class="text-danger">* Campo obrigatório</p>
                     </div>
 

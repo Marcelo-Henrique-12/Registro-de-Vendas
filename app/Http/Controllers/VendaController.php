@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class VendaController extends Controller
 {
@@ -23,8 +24,15 @@ class VendaController extends Controller
      */
     public function index()
     {
+        $user = Auth::user();
+        $clientes = $user->clientes;
+        $produtos = $user->produtos;
 
-        return view('vendas.index');
+        return view('vendas.index', [
+            'clientes'=> $clientes,
+            'produtos'=> $produtos,
+
+        ]);
     }
 
     /**
