@@ -17,11 +17,9 @@
             <div class="offcanvas-body">
                 <ul class="navbar-nav flex-grow-1 justify-content-between">
 
-                    <li class="nav-item"><a class="nav-link" href="{{ route('home') }}">Início</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ route('registro.index') }}">Registros</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ route('saldo.index') }}">Saldos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ route('meta.index') }}">Metas</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ route('consulta.index') }}">Consultas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ route('venda.index') }}">Vendas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ route('cliente.index') }}">Clientes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ route('produto.index') }}">Produtos</a></li>
 
 
 

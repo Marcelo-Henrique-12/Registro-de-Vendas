@@ -140,9 +140,9 @@
                             <div class="row mb-4">
                                 <div class="form-group col-md-12">
                                     <div class="floating-label">
-                                        <input type="text" name="cpf" id="cpf"
-                                            class="form-control @error('cpf') is-invalid @enderror" autocomplete="cpf"
-                                            value="{{ old('cpf') }}" />
+                                        <input type="text" class="form-control @error('cpf') is-invalid @enderror"
+                                            id="cpf" name="cpf" data-mask="000.000.000-00" 
+                                            value="{{ old('cpf') }}">
                                         <label for="cpf">CPF <abbr title="campo obrigatório"
                                                 class="text-danger">*</abbr></label>
                                         @error('cpf')
