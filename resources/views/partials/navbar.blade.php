@@ -17,6 +17,7 @@
             <div class="offcanvas-body">
                 <ul class="navbar-nav flex-grow-1 justify-content-between">
 
+                    <li class="nav-item"><a class="nav-link" href="{{ route('venda.create') }}">Cadastrar venda</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ route('venda.index') }}">Vendas</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ route('cliente.index') }}">Clientes</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ route('produto.index') }}">Produtos</a></li>
